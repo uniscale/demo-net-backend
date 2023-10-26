@@ -1,9 +1,9 @@
-﻿using UniscaleDemo.Messages;
-using UniscaleDemo.Messages.Messages;
+﻿using Uniscale.Core;
+using UniscaleDemo.Messages;
 using UniscaleDemo.Messages_1_0;
-using Uniscale.Core;
+using UniscaleDemo.Messages.Messages;
 
-namespace Streams {
+namespace Messages {
     public class TimelineInterceptors {
         private static Dictionary<Guid, MessageFull> messages = new Dictionary<Guid, MessageFull>();
 

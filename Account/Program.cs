@@ -12,7 +12,7 @@ app.UseCors(builder => {
            .AllowAnyHeader();
 });
 
-// Create in memory cache of uesrs
+// Create in memory cache of users
 var users = new Dictionary<Guid, UserFull>();
 
 // Initialize the Uniscale session
