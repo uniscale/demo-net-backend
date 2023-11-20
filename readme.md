@@ -1,4 +1,4 @@
-# Demo solution Java backend
+# Demo solution .NET backend
 
 ## How to run
 
